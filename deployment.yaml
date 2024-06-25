@@ -15,8 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: blueming95/kubernetes-cicd:202406251435
-        ports:
-        - containerPort: 80
-
+        - name: nginx
+          image: blueming95/docker-cicd:202406251501
+          ports:
+            - containerPort: 80
